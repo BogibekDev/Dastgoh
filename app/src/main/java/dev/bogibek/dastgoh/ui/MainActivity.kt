@@ -39,16 +39,16 @@ class MainActivity : AppCompatActivity() {
 
     private fun loadList() {
         list = ArrayList()
-        list.add(Detal(R.drawable.img, "1. Asos", "Stanokni o’rnatuvchi stol"))
-        list.add(Detal(R.drawable.img, "2. Elektrodvigatel", "Elektr energiyasini mehanik energiyaga aylantirib beradi"))
-        list.add(Detal(R.drawable.img, "3. Tasmali uzatma himoyalagichi", "Tasmani turli tashqi ta’sirlardan saqlash uchun xizmat qiladi"))
-        list.add(Detal(R.drawable.img, "4. Ulab ajratish tugmalari", "Stanokni ishga tushirish va to’xtatish uchun xizmat qiladi"))
-        list.add(Detal(R.drawable.img, "5. Stanina", "stonokni barcha detallarini mahkamlash vazifasini bajaradi"))
-        list.add(Detal(R.drawable.img, "6. Oldingi babka", "Shpindelni mahkamlab turadi va elektrodvigateldan kelgan mexanik energiyani shpindelga uzatish vazifasini bajaradi"))
-        list.add(Detal(R.drawable.img, "7. Shpinde (patron)", "Zagatovkani old tomondan markaziy o’q bo’yicha mahkamlash uchun xizmat qiladi"))
-        list.add(Detal(R.drawable.img, "8. Trgak", "Zagatovkaga ishlov berishda iskanalarni ilgarilanma va qaytma harakatlanishini amalga oshirish uchun xizmat qiladi"))
-        list.add(Detal(R.drawable.img, "9. Ximoya oynasi", "Zagatovkaga ishlov berilyotgan paytda uchib chiquvchi yog’och payrahalardan saqlash vazifasini bajaradi"))
-        list.add(Detal(R.drawable.img, "10. Ketingi babka", "Zagatovkani ketingi tomonidan markaziy o’q bo’yicha mahkamlash va siqib turish vazifasini bajaradi"))
-        list.add(Detal(R.drawable.img, "11. Yoritgich", "Zagatovkaga ishlov berishda ish o’rnini yoritish uchun xizmat qiladi"))
+        list.add(Detal(R.drawable.asos1, "1. Asos", "Stanokni o’rnatuvchi stol"))
+        list.add(Detal(R.drawable.elektrodivigatel2, "2. Elektrodvigatel", "Elektr energiyasini mehanik energiyaga aylantirib beradi"))
+        list.add(Detal(R.drawable.stanina3, "3. Stanina", "stonokni barcha detallarini mahkamlash vazifasini bajaradi"))
+        list.add(Detal(R.drawable.tas4, "4. Tasmali uzatma himoyalagichi", "Tasmani turli tashqi ta’sirlardan saqlash uchun xizmat qiladi"))
+        list.add(Detal(R.drawable.ulab_ajrtgich5, "5. Ulab ajratish tugmalari", "Stanokni ishga tushirish va to’xtatish uchun xizmat qiladi"))
+        list.add(Detal(R.drawable.oldingi_bobka6, "6. Oldingi babka", "Shpindelni mahkamlab turadi va elektrodvigateldan kelgan mexanik energiyani shpindelga uzatish vazifasini bajaradi"))
+        list.add(Detal(R.drawable.shpindel7, "7. Shpinde (patron)", "Zagatovkani old tomondan markaziy o’q bo’yicha mahkamlash uchun xizmat qiladi"))
+        list.add(Detal(R.drawable.trgak8, "8. Tirgak", "Zagatovkaga ishlov berishda iskanalarni ilgarilanma va qaytma harakatlanishini amalga oshirish uchun xizmat qiladi"))
+        list.add(Detal(R.drawable.ketingi_bobka9, "9. Ketingi babka", "Zagatovkani ketingi tomonidan markaziy o’q bo’yicha mahkamlash va siqib turish vazifasini bajaradi"))
+        list.add(Detal(R.drawable.ximoya10, "10. Ximoya oynasi", "Zagatovkaga ishlov berilyotgan paytda uchib chiquvchi yog’och payrahalardan saqlash vazifasini bajaradi"))
+        list.add(Detal(R.drawable.lampochka11, "11. Yoritgich", "Zagatovkaga ishlov berishda ish o’rnini yoritish uchun xizmat qiladi"))
     }
 }
